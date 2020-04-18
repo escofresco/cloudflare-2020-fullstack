@@ -1,6 +1,6 @@
 name = "cloudpair"
 type = "javascript"
-account_id = ""
+account_id = "e313033e4afa1ce09bfb12f0f27a4c99"
 workers_dev = true
 route = ""
 zone_id = ""
