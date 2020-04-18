@@ -16,7 +16,7 @@ async function handleRequest(request) {
     const variantsUrl = 'https://cfw-takehome.developers.workers.dev/api/variants'
 
     // Store a random variant from variantsUrl response
-    let randVariant = await fetch(variantsUrl)
+    const randVariant = await fetch(variantsUrl)
         .then(response => response.json())
         .then(json => json['variants'])
         .then(variants => randElm(variants))
